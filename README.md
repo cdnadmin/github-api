@@ -1,7 +1,5 @@
 ## Readme for Monico Moreno Github Api (mmga) Project
 
-Quick note, I'll be working on this in 15-30-minute bursts due to my schedule this week, of Sept 1, 2014.
-
 
 ### Tools, Packages, etc.
 * Mac OS X Mavs
