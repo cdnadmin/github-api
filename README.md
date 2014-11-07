@@ -15,6 +15,5 @@
 
 
 ### Comments
-Aside from auto-generated deliverables (e.g. express-generator files), all source was hand coded by Monico.
-
+Use as demo app
 
