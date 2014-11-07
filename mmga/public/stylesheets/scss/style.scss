@@ -1,0 +1,50 @@
+$border-radius : 10px;
+$pseudo-link-color: #777;
+$font-stack: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+$main-background-color : #ccc;
+
+
+body {
+  padding: 30px;
+  font: $font-stack;
+}
+
+header, footer{
+  margin: 5px 0 5px 0;
+  border-radius: $border-radius ;
+  background-color: $main-background-color;
+  padding:5px 15px 5px 15px;
+}
+
+header>h3{
+  margin:10px 0 10px 0;
+}
+
+section{
+  margin: 5px 0 5px 0;
+  padding: 5px;
+  border: 1px solid gray;   
+}
+
+input[type="button"]{
+  margin: 5px 0 5px 0;
+}
+
+ul#userList{
+  list-style: none;
+}
+
+li.user-view-item{
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+li.user-view-item:hover{
+  color: $pseudo-link-color;
+}
+
+h2.empty{
+  padding:0;
+  margin:0;
+  font-size:0;
+}

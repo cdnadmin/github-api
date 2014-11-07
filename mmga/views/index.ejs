@@ -1,0 +1,70 @@
+<% include layout_head %>
+
+  <script id="userListTempl" type="text/template">
+    <h4>Users</h4>
+    <ul id="userList"></ul>
+  </script>
+  
+  <script id="userTempl" type="text/template">
+    <p>
+      
+    </p>
+  </script>
+
+<article id="mainArticle"><h2 class="empty">&nbsp;</h2>
+  <article id="inputArticle"><h2 class="empty">&nbsp;</h2>
+    <form>
+      <input id="inputUserName" type="text" class="form-control"
+          placeholder="Enter GitHub user name to search" /> <input id="submitButton" type="button" value="OK" class="btn btn-default form-control" />
+    </form>
+  </article>
+
+  <article id="dataArticle"><h2 class="empty">&nbsp;</h2>
+
+    <section id="userListArea">     
+      <h4>User</h4>
+      <ul id="userList" title="Click user to get repos"></ul>
+      <p>Please note that some public repos might be empty and therefore will show up in list.</p>
+    </section>
+
+    <section id="repoListArea">
+      <h4>Repos</h4>
+      <ul id="repoList"></ul>
+    </section>
+
+
+  </article>
+<h4>
+  Installation Instructions
+</h4>
+
+<ol>
+  <li>
+    Ensure you have nodejs and mongodb installed on the system where the web app will be running.
+  </li>
+  <li>
+    Mongo server (localhost:27017) should have an mmga database. Note the collection that is used is ghUsers.
+  </li>
+  <li>
+    Ensure that mongod server is running.
+  <li>
+    Download source from GitHub repository.
+  </li>
+  <li>
+    From a terminal window, cd on over to the mmga folder.  (mmga &rarr; Monico Moreno GitHub API)
+  </li>
+  <li>
+    Install by running the command: npm install
+    <p>There is a possibility that you have to run it with the sudo command.
+  </li>
+  <li>
+    Start the web server by running: npm start
+  </li>
+  <li>
+    That's it!
+  </li>
+</ol>
+
+</article>
+
+<% include layout_foot %>

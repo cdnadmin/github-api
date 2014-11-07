@@ -1,0 +1,8 @@
+#untracked files for mmga project
+
+mmga.sublime*
+npm-debug.log
+.DS_Store
+*.css.map
+mmga/node_modules
+.sass-cache
